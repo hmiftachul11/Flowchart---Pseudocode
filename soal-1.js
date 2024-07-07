@@ -15,3 +15,5 @@ function getGrade(nilai) {
 let nilai = prompt('Masukkan Nilai: ');
 let grade = getGrade(nilai);
 alert(`Nilai ${nilai} dinyatakan ${grade}`)
+
+confirm('Input value lagi?')
